@@ -15,11 +15,11 @@ Inputs a stock and using machine learning and advanced time series analysis tech
 
 1. Install dependencies:
    
-```pip install -r requirements.txt```
+```pip3 install -r requirements.txt```
 
 2. Run the script:
 
-```python stock_price_predictor.py```
+```python3 stock_price_predictor.py```
 
 3. Follow the prompts to input stock information and view the predicted stock price.
 
