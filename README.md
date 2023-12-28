@@ -26,7 +26,9 @@ Inputs a stock and using machine learning and advanced time series analysis tech
    
 ## Test Run
 
+
 ```console
+Enter the stock ticker symbol: AAPL
 Enter the start date (YYYY-MM-DD): 2021-01-01
 Enter the end date (YYYY-MM-DD) or specify the number of days (e.g., +30): +365
 [*********************100%%**********************]  1 of 1 completed
@@ -37,4 +39,6 @@ Predicted Close Price for 2023-12-28: 182.92
 The price is expected to move up by 3.01% from the last close.
 ```
 
-**Note:** Currently programmed to only show the closing price for the next day.
+The user inputs the "AAPL" symbol, representing the Apple stock, and fetches data from 2021-01-01 til 2022-01-01 to predict the stock price for 2023-12-28.
+
+**Note:** Currently programmed to only show the closing price for the next day for simplicity.
